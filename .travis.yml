@@ -1,1 +1,4 @@
 language: python
+notifications:
+  email:
+    - sanjose192002@gmail.com
