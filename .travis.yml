@@ -2,7 +2,7 @@ services:
   - docker
 
 install:
-  - docker build -t locust-alpine .
+  - docker build -t josepipher/locust-alpine .
 
 notifications:
   email:
