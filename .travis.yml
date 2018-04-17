@@ -2,10 +2,10 @@ services:
   - docker
 
 install:
-  - docker build -t josepipher/locust-alpine .
+  - docker build -t sanjose/locust-alpine .
 
 script:
-  - docker run josepipher/locust-alpine nmap 127.0.0.1
+  - docker run sanjose/locust-alpine nmap 127.0.0.1
 
 notifications:
   email:
