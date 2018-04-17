@@ -1,6 +1,9 @@
 services:
   - docker
 
+install:
+  - docker build -t locust-alpine .
+
 notifications:
   email:
     - sanjose192002@gmail.com
