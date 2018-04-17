@@ -5,7 +5,7 @@ install:
   - docker build -t josepipher/locust-alpine .
 
 script:
-  - docker run josepipher/locust-alpine 127.0.0.1
+  - docker run josepipher/locust-alpine nmap 127.0.0.1
 
 notifications:
   email:
